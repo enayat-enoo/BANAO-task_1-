@@ -9,9 +9,12 @@
     <div>
       <h2>Registraion</h2>
       <form action="http://localhost:8001/register" method="POST">
+        <label for="">Email</label>
         <input type="email" name="email" placeholder="example@gmail.com" />
-        <input type="text" name="username" placeholder="username" />
-        <input type="password" name="password" placeholder="password" />
+        <label for="">Username</label>
+        <input type="text" name="username" placeholder="username"  />
+        <label for="">Password</label>
+        <input type="password" name="password" placeholder="password" minlength="8" />
         <input type="submit" value="register" />
       </form>
     </div>
